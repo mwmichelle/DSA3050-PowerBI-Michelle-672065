@@ -1045,27 +1045,26 @@ Note: The actual dataset filename and repository filenames should match the file
 29. Dashboard Screenshots
 Executive Overview
 
-![Executive Overview(dashboard screenshots/executive overview pg1.png)]
-
+![Executive Overview(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/executive%20overview%20pg1.png)]
 
 The Executive Overview provides senior management with high-level KPIs, booking trends, hotel comparisons and market-segment performance.
 
 Booking & Cancellation Analysis
 
-![Booking Analysis(dashboard screenshots/booking analysis pg 2.png)]
+![Booking Analysis(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/booking%20analysis%20pg%202.png)]
 
 This page investigates cancellation behaviour across lead time, hotel type, customer type, distribution channel, ADR and length of stay.
 
 Revenue & Pricing Analysis
 
-dashboard screenshots/revenue and pricing pg 3.png
+![Revenue Analysis(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/revenue%20and%20pricing%20pg%203.png)]
 
 
 This page analyses estimated booking value, estimated realized revenue, pricing, market segments, distribution channels and room types.
 
 Data Model
 
-Model View(model view/model view.png
+![Model View(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/model%20view/model%20view.png)]
 
 The model follows a star-schema design centred around FactBookings, with seven analytical dimensions and one-to-many, single-direction relationships.
 
