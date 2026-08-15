@@ -1,7 +1,7 @@
-Hotel Booking Performance Analytics Dashboard
+**Hotel Booking Performance Analytics Dashboard
 Power BI Business Intelligence Project
 Project Overview
-
+**
 This project develops an interactive Power BI business intelligence solution for hotel booking analysis. The solution transforms raw hotel reservation data into a structured analytical model that enables management to monitor booking demand, cancellation behaviour, customer characteristics, pricing, and estimated booking value.
 
 The project was developed through four main stages:
@@ -1058,20 +1058,20 @@ This page investigates cancellation behaviour across lead time, hotel type, cust
 
 Revenue & Pricing Analysis
 
-![Revenue Analysis(dashboard screenshots/revenue and pricing pg 3.png)]
+dashboard screenshots/revenue and pricing pg 3.png
 
 
 This page analyses estimated booking value, estimated realized revenue, pricing, market segments, distribution channels and room types.
 
 Data Model
 
-![Model View(model view/model view.png)]
+Model View(model view/model view.png
 
 The model follows a star-schema design centred around FactBookings, with seven analytical dimensions and one-to-many, single-direction relationships.
 
 Power Query Transformation Evidence
 
-![Staging Table(power query/staging table applied steps.png)]
+power query/staging table applied steps.png
 
 
 The staging layer documents the cleaning, missing-value handling, validation, derived fields and data-type corrections applied before modelling.
