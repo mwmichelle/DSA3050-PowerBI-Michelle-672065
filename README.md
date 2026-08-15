@@ -1,7 +1,7 @@
-**Hotel Booking Performance Analytics Dashboard
-Power BI Business Intelligence Project
-Project Overview
-**
+## Hotel Booking Performance Analytics Dashboard
+## Power BI Business Intelligence Project
+## Project Overview
+
 This project develops an interactive Power BI business intelligence solution for hotel booking analysis. The solution transforms raw hotel reservation data into a structured analytical model that enables management to monitor booking demand, cancellation behaviour, customer characteristics, pricing, and estimated booking value.
 
 The project was developed through four main stages:
@@ -422,6 +422,7 @@ Single-direction filtering is used from dimensions toward the fact table.
 
 Conceptually:
 
+```md
                          DimDate
                             |
                             |
@@ -429,10 +430,12 @@ DimHotel ----------- FactBookings ----------- DimCountry
                          /   |   \
                         /    |    \
               DimRoomType    |    DimCustomerType
-                              |
+                             |
                      DimMarketSegment
-                              |
+                             |
                   DimDistributionChannel
+
+```
 
 This design:
 
@@ -1043,28 +1046,28 @@ Hotel-Booking-PowerBI/
 Note: The actual dataset filename and repository filenames should match the files used in the final submission.
 
 29. Dashboard Screenshots
-Executive Overview
+# Executive Overview
 
-![Executive Overview(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/executive%20overview%20pg1.png)]
+![Executive Overview](https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/executive%20overview%20pg1.png)
 
 The Executive Overview provides senior management with high-level KPIs, booking trends, hotel comparisons and market-segment performance.
 
-Booking & Cancellation Analysis
+# Booking & Cancellation Analysis
 
-![Booking Analysis(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/booking%20analysis%20pg%202.png)]
+![Booking Analysis](https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/booking%20analysis%20pg%202.png)
 
 This page investigates cancellation behaviour across lead time, hotel type, customer type, distribution channel, ADR and length of stay.
 
-Revenue & Pricing Analysis
+# Revenue & Pricing Analysis
 
-![Revenue Analysis(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/revenue%20and%20pricing%20pg%203.png)]
+![Revenue Analysis](https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/dashboard%20screenshots/revenue%20and%20pricing%20pg%203.png)
 
 
 This page analyses estimated booking value, estimated realized revenue, pricing, market segments, distribution channels and room types.
 
-Data Model
+# Data Model
 
-![Model View(https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/model%20view/model%20view.png)]
+![Model View](https://github.com/mwmichelle/Hotel-Bookings-DSA3050-EndSem/blob/main/model%20view/model%20view.png)
 
 The model follows a star-schema design centred around FactBookings, with seven analytical dimensions and one-to-many, single-direction relationships.
 
